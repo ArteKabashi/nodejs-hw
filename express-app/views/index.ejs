@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/admin/add-product">Add Product</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>This is the homepage</h1>
+
+    <% if(10>9){ %>
+    <h1>Hello</h1>
+    <% }%> <%const variabla = "value"%>
+    <h1><%=variabla%></h1>
+
+    <% for(let i =0;i<10;i++){%>
+    <span><%= i %></span>
+    <br />
+    <%}%>
+  </body>
+</html>
